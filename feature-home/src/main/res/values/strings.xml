@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deals_error_fetching">Извините, что-то пошло не так при получении данных</string>
+    <string name="deals_error_refreshing">Извините, что-то пошло не так при обновлении данных</string>
+    <string name="welcome">Добро пожаловать,</string>
+    <string name="home_desc">Что бы вы хотели купить?</string>
+</resources>
