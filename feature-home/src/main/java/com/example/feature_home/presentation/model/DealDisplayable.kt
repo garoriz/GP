@@ -7,4 +7,7 @@ import kotlinx.parcelize.Parcelize
 data class DealDisplayable(
     val dealID: String,
     val title: String,
+    val thumb: String,
+    val salePrice: String,
+    val normalPrice: String,
 ) : Parcelable

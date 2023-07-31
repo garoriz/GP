@@ -6,15 +6,24 @@ import com.example.feature_home.domain.model.Deal
 
 fun DealCached.toDomainModel() = Deal(
     dealID = dealID,
-    title = title
+    title = title,
+    thumb = thumb,
+    salePrice = "salePrice",
+    normalPrice = "normalPrice"
 )
 
 fun DealResponse.toDomainModel() = Deal(
     dealID = dealID,
-    title = title
+    title = title,
+    thumb = thumb,
+    salePrice = salePrice,
+    normalPrice = normalPrice
 )
 
 fun Deal.toEntityModel() = DealCached(
     dealID = dealID,
-    title = title
+    title = title,
+    thumb = thumb,
+    //salePrice = salePrice,
+    //normalPrice = normalPrice
 )

@@ -11,4 +11,13 @@ data class DealCached(
 
     @ColumnInfo(name = "title")
     val title: String,
+
+    @ColumnInfo(name = "thumb")
+    val thumb: String,
+
+    /*@ColumnInfo(name = "sale_price")
+    val salePrice: String,
+
+    @ColumnInfo(name = "normal_price")
+    val normalPrice: String,*/
 )

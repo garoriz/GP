@@ -5,5 +5,8 @@ import com.example.feature_home.presentation.model.DealDisplayable
 
 fun Deal.toPresentationModel() = DealDisplayable(
     dealID = dealID,
-    title = title
+    title = title,
+    thumb = thumb,
+    salePrice = salePrice,
+    normalPrice = normalPrice
 )
